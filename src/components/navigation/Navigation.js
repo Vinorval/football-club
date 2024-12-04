@@ -10,7 +10,7 @@ const Navigation = () => {
             <NavLink to="/" className="link" ><img alt="круглый логотип компании" src={Logo} className="navigation__logo" /></NavLink>
             <ul className="links-list" >
                 <NavLink to="/" className="link" >HOME</NavLink>
-                <NavLink to="/about-club" className="link link_highlight_active" >ABOUT THE CLUB</NavLink>
+                <NavLink to="/club" className="link link_highlight_active" >ABOUT THE CLUB</NavLink>
                 <NavLink to="/faq" className="link" >FAQ</NavLink>
                 <NavLink to="/news" className="link" >NEWS</NavLink>
                 <NavLink to="/rules" className="link" >RULES</NavLink>

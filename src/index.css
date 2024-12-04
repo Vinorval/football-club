@@ -11,3 +11,9 @@
 @import url(./blocks/header/_page/header_page_news.css);
 @import url(./blocks/header/_page/header_page_rules.css);
 @import url(./blocks/header/_height/header_height_big.css);
+
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/_color/button_color_blue.css);
+@import url(./blocks/button/_color/button_color_red.css);
+@import url(./blocks/button/_light/button_light_long.css);
+@import url(./blocks/button/_light/button_light_short.css);
