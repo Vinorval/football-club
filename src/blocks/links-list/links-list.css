@@ -1,0 +1,6 @@
+.links-list {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3em;
+}

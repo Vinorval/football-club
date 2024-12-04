@@ -1,6 +1,15 @@
 @import url(./blocks/body/body.css);
 @import url(./blocks/code/code.css);
 
+/*Ниже импорт стилей для кнопок*/
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/_color/button_color_blue.css);
+@import url(./blocks/button/_color/button_color_red.css);
+@import url(./blocks/button/_light/button_light_long.css);
+@import url(./blocks/button/_light/button_light_short.css);
+@import url(./blocks/button/__link/button__link.css);
+
+/*Ниже импорт файлов со стилями шапки сайтов*/
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__background/header__background.css);
 @import url(./blocks/header/_page/header_page_home.css);
@@ -12,8 +21,10 @@
 @import url(./blocks/header/_page/header_page_rules.css);
 @import url(./blocks/header/_height/header_height_big.css);
 
-@import url(./blocks/button/button.css);
-@import url(./blocks/button/_color/button_color_blue.css);
-@import url(./blocks/button/_color/button_color_red.css);
-@import url(./blocks/button/_light/button_light_long.css);
-@import url(./blocks/button/_light/button_light_short.css);
+@import url(./blocks/authorization/authorization.css); /*Стили для расположения кнопок авторазиции в шапке сайта*/
+
+/*Ниже импорт стилей навигации, в шапке сайта, и его дочерних элементов*/
+@import url(./blocks/navigation/navigation.css);
+@import url(./blocks/links-list/links-list.css);
+@import url(./blocks/link/link.css);
+@import url(./blocks/link/_highlight/link_highlight_active.css);
